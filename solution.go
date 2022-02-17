@@ -17,7 +17,7 @@ func CalcSquare(sideLen float64, sidesNum myInt) float64 {
 	case SidesSquare:
 		return math.Pow(sideLen, 2)
 	case SidesCircle:
-		return math.Pi * math.Pow(sideLen, 2)
+		return (math.Pi * math.Pow(sideLen, 2)) / 2
 	default:
 		return 0
 	}
